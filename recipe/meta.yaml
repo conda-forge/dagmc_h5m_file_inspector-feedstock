@@ -1,4 +1,4 @@
-{% set version = "0.7.0" %}
+{% set version = "0.7.1" %}
 
 package:
   name: dagmc_h5m_file_inspector
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/d/dagmc_h5m_file_inspector/dagmc_h5m_file_inspector-{{ version }}.tar.gz
-  sha256: a38b29fc60786dea3e84cd52cc1e335326d30e7350c91fadc454f2fa621a4dce
+  sha256: 39939dc54c4b01ef0b0a08201a34f4f0240777efa0900c747cedc9a545e7f563
 
 build:
   noarch: python
