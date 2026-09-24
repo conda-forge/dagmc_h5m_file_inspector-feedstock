@@ -40,31 +40,73 @@ conda config --add channels conda-forge
 conda config --set channel_priority strict
 ```
 
-Once the `conda-forge` channel has been enabled, `dagmc_h5m_file_inspector` can be installed with `conda`:
+How to use
+----------
+
+<details>
+<summary>With conda</summary>
 
 ```
 conda install dagmc_h5m_file_inspector
 ```
 
-or with `mamba`:
+</details>
+
+<details>
+<summary>With mamba</summary>
 
 ```
 mamba install dagmc_h5m_file_inspector
 ```
 
-It is possible to list all of the versions of `dagmc_h5m_file_inspector` available on your platform with `conda`:
+</details>
+
+<details>
+<summary>With pixi</summary>
+
+```
+# for adding to your local project
+pixi add dagmc_h5m_file_inspector
+# for installing globally
+pixi global install dagmc_h5m_file_inspector
+```
+
+</details>
+
+Search package versions
+-----------------------
+
+It is possible to list all of the versions of `dagmc_h5m_file_inspector` available on your platform:
+
+<details>
+<summary>With conda</summary>
 
 ```
 conda search dagmc_h5m_file_inspector --channel conda-forge
 ```
 
-or with `mamba`:
+</details>
+
+<details>
+<summary>With mamba</summary>
 
 ```
 mamba search dagmc_h5m_file_inspector --channel conda-forge
 ```
 
-Alternatively, `mamba repoquery` may provide more information:
+</details>
+
+<details>
+<summary>With pixi</summary>
+
+```
+pixi search dagmc_h5m_file_inspector --channel conda-forge
+```
+
+</details>
+
+<details>
+<summary>With mamba repoquery, which may provide more information</summary>
 
 ```
 # Search all versions available on your platform:
@@ -76,6 +118,8 @@ mamba repoquery whoneeds dagmc_h5m_file_inspector --channel conda-forge
 # List dependencies of `dagmc_h5m_file_inspector`:
 mamba repoquery depends dagmc_h5m_file_inspector --channel conda-forge
 ```
+
+</details>
 
 
 About conda-forge
