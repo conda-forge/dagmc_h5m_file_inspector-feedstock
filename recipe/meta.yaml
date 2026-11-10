@@ -1,4 +1,4 @@
-{% set version = "0.8.0" %}
+{% set version = "0.8.2" %}
 
 package:
   name: dagmc_h5m_file_inspector
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/d/dagmc_h5m_file_inspector/dagmc_h5m_file_inspector-{{ version }}.tar.gz
-  sha256: 5009120a7213a2460e8a32e487cf464d3bc6e6ce9575d56b374178e5336685d5
+  sha256: 91db678479dcf7e38f50da8781f5e57fb3428fff46c9686ad624a91a1ab56205
 
 build:
   noarch: python
